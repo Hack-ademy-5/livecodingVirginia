@@ -1,0 +1,74 @@
+body{
+      background-color: black;
+      font-family: 'Karla', sans-serif;
+
+}
+
+:root{
+       --main-color: #0077b6;
+       --accent-color:#48cae4;
+
+    
+}
+
+.text-main{     
+    color: var(--main-color); 
+
+} 
+.text-accent{     color: var(--accent-color); 
+
+} 
+.bg-main{     background-color: var(--main-color); 
+
+
+} 
+.bg-accent{     background-color: var(--accent-color); 
+
+} 
+
+.borderNav{
+      border-bottom: 2px solid var(--accent-color);
+
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4{     color: white; 
+
+}  
+
+.cabeza{     
+    height: 100vh;    
+    width: 100%;    
+    background-image: linear-gradient(black 10%, transparent, black 90%), url("IMg/nasa-CpHNKNRwXps-unsplash.jpg");
+    background-size: contain;    
+    background-position: center;  
+
+} 
+.bordercard{      color: white;  
+
+}
+.cohete{
+     background-image: linear-gradient(black 40%, transparent, black 40%), url("IMg/hello-i-m-nik-8yCmQODY2SY-unsplash.png");
+    
+}
+.bgimg{
+     height: 100vh;
+     width: 100%;
+     background-image: url("IMg/nasa-Q1p7bh3SHj8-unsplash.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     
+     }
+footer{
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url("./IMg/nasa-Q1p7bh3SHj8-unsplash.jpg");
+      height: 50vh;
+      width: 100%;
+
+}    
+fondo{
+    background: black;
+}
